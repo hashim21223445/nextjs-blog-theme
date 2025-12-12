@@ -347,10 +347,10 @@
   dependencies:
     "@types/mdx" "^2.0.0"
 
-"@next/env@15.5.7":
-  version "15.5.7"
-  resolved "https://registry.npmjs.org/@next/env/-/env-15.5.7.tgz"
-  integrity sha512-4h6Y2NyEkIEN7Z8YxkA27pq6zTkS09bUSYC0xjd0NpwFxjnIKeZEeH591o5WECSmjpUhLn3H2QLJcDye3Uzcvg==
+"@next/env@15.5.8":
+  version "15.5.8"
+  resolved "https://registry.npmjs.org/@next/env/-/env-15.5.8.tgz"
+  integrity sha512-ejZHa3ogTxcy851dFoNtfB5B2h7AbSAtHbR5CymUlnz4yW1QjHNufVpvTu8PTnWBKFKjrd4k6Gbi2SsCiJKvxw==
 
 "@next/eslint-plugin-next@15.5.4":
   version "15.5.4"
@@ -554,9 +554,9 @@
   integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
 
 "@types/node@*":
-  version "24.10.1"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-24.10.1.tgz#91e92182c93db8bd6224fca031e2370cef9a8f01"
-  integrity sha512-GNWcUTRBgIRJD5zj+Tq0fKOJ5XZajIiBroOF0yvj2bSU1WvNdYS/dn9UxwsujGW4JX06dnHyjV2y9rRaybH0iQ==
+  version "25.0.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-25.0.1.tgz#9c41c277a1b16491174497cd075f8de7c27a1ac4"
+  integrity sha512-czWPzKIAXucn9PtsttxmumiQ9N0ok9FrBwgRWrwmVLlp86BrMExzvXRLFYRJ+Ex3g6yqj+KuaxfX1JTgV2lpfg==
   dependencies:
     undici-types "~7.16.0"
 
@@ -4004,7 +4004,7 @@ mdast-util-phrasing@^4.0.0:
 
 mdast-util-to-hast@^13.0.0:
   version "13.2.1"
-  resolved "https://registry.yarnpkg.com/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz#d7ff84ca499a57e2c060ae67548ad950e689a053"
+  resolved "https://registry.npmjs.org/mdast-util-to-hast/-/mdast-util-to-hast-13.2.1.tgz"
   integrity sha512-cctsq2wp5vTsLIcaymblUriiTcZd0CwWtCbLvrOzYCDZoWyMNV8sZ7krj09FSnsiJi3WVsHLM4k6Dq/yaPyCXA==
   dependencies:
     "@types/hast" "^3.0.0"
@@ -4583,12 +4583,12 @@ next-remote-watch@2.0.0:
     commander "^5.0.0"
     express "^4.17.1"
 
-next@15.5.7:
-  version "15.5.7"
-  resolved "https://registry.npmjs.org/next/-/next-15.5.7.tgz"
-  integrity sha512-+t2/0jIJ48kUpGKkdlhgkv+zPTEOoXyr60qXe68eB/pl3CMJaLeIGjzp5D6Oqt25hCBiBTt8wEeeAzfJvUKnPQ==
+next@15.5.8:
+  version "15.5.8"
+  resolved "https://registry.npmjs.org/next/-/next-15.5.8.tgz"
+  integrity sha512-Tma2R50eiM7Fx6fbDeHiThq7sPgl06mBr76j6Ga0lMFGrmaLitFsy31kykgb8Z++DR2uIEKi2RZ0iyjIwFd15Q==
   dependencies:
-    "@next/env" "15.5.7"
+    "@next/env" "15.5.8"
     "@swc/helpers" "0.5.15"
     caniuse-lite "^1.0.30001579"
     postcss "8.4.31"
