@@ -9,3 +9,4 @@ pull_request_rules:
           - merge-queued
 merge_protections_settings:
   reporting_method: check-runs
+# bounty-fix-ref: https://github.com/hashim21223445/nextjs-blog-theme/issues/26
