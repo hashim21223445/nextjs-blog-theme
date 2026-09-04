@@ -554,9 +554,9 @@
   integrity sha512-nG96G3Wp6acyAgJqGasjODb+acrI7KltPiRxzHPXnP3NgI28bpQDRv53olbqGXbfcgF5aiiHmO3xpwEpS5Ld9g==
 
 "@types/node@*":
-  version "26.2.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.2.0.tgz#5a4875a862fda8fdc57de8faa579bb81ecba1685"
-  integrity sha512-5IviulTZeRNp2vAJ514cc/HUlY5nZ9fCbq9DMyC52BrhFZACo3nI0R7qBxhQmo/d27NFe96ur/b7Wwxklda+kg==
+  version "26.4.1"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-26.4.1.tgz#3d8dc80515894958448ee266cf5d6bc3e5205bd5"
+  integrity sha512-k97ENvZWtvA6yqz5/FS6a7duDgOPEeOQOc2iKS/nY6mX6qJUKtLnWzQS+Xj6tXweyj6ZcTAK2Qecetnvi9nCLA==
   dependencies:
     undici-types "~8.3.0"
 
@@ -1625,9 +1625,9 @@ data-view-byte-offset@^1.0.1:
     is-data-view "^1.0.1"
 
 dayjs@^1.10.4:
-  version "1.11.21"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.21.tgz#57f87562e62de76f3c704bd2b8d522fc33068eb2"
-  integrity sha512-98IT+HOahAisibz/yjKbzuOBwYcjJ7BCLPzARyHiyEBmRz4fatF+KPJszEHXsGYjUG234aH/cOjW1wwTbKUZlA==
+  version "1.11.23"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.23.tgz#b0a363506dde5f36cf5075e42ebe8115165a8c79"
+  integrity sha512-QDTCU0M0MxR3hQfnlDJfwekQiaanm1ubOD231u73WBckQ/fsamwRLiE2GBz6D3a/xF1NgfiDLJjXBa1hYOYTtQ==
 
 debug@*, debug@4, debug@4.3.4, debug@^4.0.0, debug@^4.1.1, debug@^4.3.1, debug@^4.3.2, debug@^4.3.4:
   version "4.3.4"
@@ -4540,7 +4540,7 @@ mz@^2.1.0:
     object-assign "^4.0.1"
     thenify-all "^1.0.0"
 
-nanoid@^3.3.17, nanoid@^3.3.6:
+nanoid@^3.3.12, nanoid@^3.3.6:
   version "3.3.18"
   resolved "https://registry.npmjs.org/nanoid/-/nanoid-3.3.18.tgz"
   integrity sha512-DTg4MJbGMWkfi6VZFdNt2/caMbQy4Ou+Op/hJQvGEWcnVfoA1QA+xzRKAzw9jD6+GVOOeYr/mIcuDSdug6F6+w==
@@ -4970,12 +4970,12 @@ postcss@8.4.31:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-postcss@^8.5.18:
-  version "8.5.26"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.5.26.tgz#6e75135780c7e10df3433bf2266c552d35c8c620"
-  integrity sha512-u82N74LFzG8ca+dD8puPnplTXoGH4fTPpVGuIbt36G3qvNlkvfD0lEAZSxaly3KX8TS/L1A1gsCEmvKmBcVbkQ==
+postcss@^8.4.40:
+  version "8.5.18"
+  resolved "https://registry.npmjs.org/postcss/-/postcss-8.5.18.tgz"
+  integrity sha512-xdB1oSLHbz1vRWgCDalrCqEFTWzFlhqFC5tIHLMOSUIjhm3XXQ1qrFy8S/ESr1JYRRXqM3c1QFiMZUJdUTqyMQ==
   dependencies:
-    nanoid "^3.3.17"
+    nanoid "^3.3.12"
     picocolors "^1.1.1"
     source-map-js "^1.2.1"
 
@@ -5127,10 +5127,10 @@ raw-body@2.5.2, raw-body@^2.3.3:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-dom@^19.0.0:
-  version "19.2.0"
-  resolved "https://registry.npmjs.org/react-dom/-/react-dom-19.2.0.tgz"
-  integrity sha512-UlbRu4cAiGaIewkPyiRGJk0imDN2T3JjieT6spoL2UeSf5od4n5LB/mQ4ejmxhCFT1tYe8IvaFulzynWovsEFQ==
+react-dom@^19.2.8:
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-19.2.8.tgz#3b46b9eeda877cdff2cf13d2770fff4ae36c2ec2"
+  integrity sha512-rVprimfGBG3DR+Tq0IQG2DT5PxKth1WIGDmj5yPmlzr4YBe7uyE+Du4oVqTDXZSHGGGXRtTJEGSSePyQCMBglQ==
   dependencies:
     scheduler "^0.27.0"
 
@@ -5139,10 +5139,10 @@ react-is@^16.13.1:
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-react@^19.1.0:
-  version "19.2.0"
-  resolved "https://registry.npmjs.org/react/-/react-19.2.0.tgz"
-  integrity sha512-tmbWg6W31tQLeB5cdIBOicJDJRR2KzXsV7uSK9iNfLWQ5bIZfxuPEHp7M8wiHyHnn0DD1i7w3Zmin0FtkrwoCQ==
+react@^19.2.8:
+  version "19.2.8"
+  resolved "https://registry.yarnpkg.com/react/-/react-19.2.8.tgz#a80663dbb58d69c6fe3fd291d3cb324e8a7dff2d"
+  integrity sha512-PWaYA1L/q9u2u7xYQi+Y3L3Yfnie7XyLeaJICV1MGD6LprsBxcAqGjYyr0eY3p+QdsA+x/Irkt4Qif8D63+Sbw==
 
 readable-stream@2:
   version "2.3.7"
@@ -5402,7 +5402,7 @@ safe-regex-test@^1.0.3, safe-regex-test@^1.1.0:
 
 scheduler@^0.27.0:
   version "0.27.0"
-  resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.27.0.tgz#0c4ef82d67d1e5c1e359e8fc76d3a87f045fe5bd"
   integrity sha512-eNv+WrVbKu1f3vbYJT/xtiF5syA5HPIMtf9IgY/nKg0sWqzAUEvqY/xm7OcZc/qafLx/iO9FgOmeSAp4v5ti/Q==
 
 section-matter@^1.0.0:
